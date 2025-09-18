@@ -129,7 +129,7 @@ export default function ProjectsPage() {
       ],
       links: [
         {
-          href: "https://github.com/meliocool/sss-vision",
+          href: "https://github.com/meliocool/alzheimerdetection",
           label: "GitHub",
         },
       ],
