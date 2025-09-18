@@ -1,6 +1,6 @@
 # My Portfolio
 
-A clean and minimalist personal portfolio showcasing my projects and skills.
+A clean and minimalist personal portfolio showcasing my projects and skills
 
 ---
 
