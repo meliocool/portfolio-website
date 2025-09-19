@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { Avatar } from "./ui/avatar";
 import Swal from "sweetalert2";
+import Spotify from "./Spotify";
 
 type Msg = {
   id: string;
@@ -88,8 +89,13 @@ export default function ChatBox() {
               className="rounded-full"
             />
           </Avatar>
-          <div className="text-lg font-medium">Dhitan</div>
-          <span className="ml-1 h-2 w-2 rounded-full bg-emerald-500" />
+          <div className="flex flex-col">
+            <div className="flex items-center gap-2">
+              <div className="text-lg font-medium">Dhitan</div>
+              <span className="ml-1 h-2 w-2 rounded-full bg-emerald-500" />
+            </div>
+            <Spotify />
+          </div>
         </div>
         <div className="flex-1 overflow-y-auto p-3 space-y-2 text-sm">
           {messages.map((m) => (
