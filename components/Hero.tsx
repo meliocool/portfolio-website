@@ -54,7 +54,7 @@ export default function Hero() {
           <div className="mt-4 flex flex-wrap gap-2">
             <Button asChild size="sm">
               <a
-                href="https://drive.google.com/file/d/1Rg7o8TFL6uBayXLHpf5PQwwSEN-alCgN/preview"
+                href="https://drive.google.com/file/d/12Nbz3_NCz0R9i3oAS4xb_RAMyPtRpb9Q/preview"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -64,7 +64,7 @@ export default function Hero() {
             </Button>
             <Button asChild size="sm" variant="outline">
               <a
-                href="https://drive.google.com/uc?export=download&id=1Rg7o8TFL6uBayXLHpf5PQwwSEN-alCgN"
+                href="https://drive.google.com/uc?export=download&id=12Nbz3_NCz0R9i3oAS4xb_RAMyPtRpb9Q"
                 target="_blank"
                 rel="noreferrer"
               >
