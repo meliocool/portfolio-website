@@ -15,9 +15,9 @@ export default function Hero() {
       <Card className="overflow-hidden border-muted">
         <CardHeader>
           <div className="flex items-center gap-3">
-            <Avatar className="h-17 w-16">
+            <Avatar className="h-16 w-16">
               <Image
-                src="/profile.jpg"
+                src="/profilepic.jpg"
                 width={200}
                 height={200}
                 alt="Dhitan"
